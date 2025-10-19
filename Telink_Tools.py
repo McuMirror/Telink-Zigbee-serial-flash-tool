@@ -354,14 +354,14 @@ def main(custom_commandline=None):
 
         print("\r\n**********************************")
         print("\033[3;31m***\033[3;32mPlease check the connection!\033[3;31m***\033[0m\r\n")
-        
-        print("USB-TTL   <-------->     TB Moudle")
+
+        print("USB-TTL    <-------->    TB Module")
         print("                                  ")
-        print("              / ------470------SWS")
-        print("Tx ----------+                    ")
-        print("              \\ ------470------Rx ")
-        print("Rx ----------------------------Tx ")
-        print("RTS----------------------------RST")
+        print("              /-------470----- SWS")
+        print("     Tx -----+                    ")
+        print("              \\-------470----- Rx")
+        print("     Rx ---------------------- Tx ")
+        print("RTS/DTR ---------------------- RST")
 
 
     _port.close()
