@@ -56,7 +56,9 @@ Clone or download the repository and execute Telink_Tools.py in a system with Py
 
 ### Burn firmware at address 0
 
-> Please note that flash must be erased before write. You need to compute the number of minimum sectors to be erased remembering that 1 sector = 4 KB.
+> [!NOTE]  
+> The flash must be erased before writing.  
+> Compute the number of minimum sectors to be erased (1 sector = 4 KB).
 	
 	Telink_Tools.py -p COM3 erase_flash 0 31	
     Telink_Tools.py -p COM3 write_flash 0 motionSensor_TS0202.bin
@@ -76,6 +78,6 @@ Clone or download the repository and execute Telink_Tools.py in a system with Py
 
 ## Credits
 
-https://github.com/Ai-Thinker-Open/TBXX_Flash_Tool
-https://github.com/Ai-Thinker-Open/Telink_825X_SDK/tree/master/example/bootloader
-https://github.com/pvvx/TlsrComProg825x
+- [Ai-Thinker-Open/TBXX_Flash_Tool](https://github.com/Ai-Thinker-Open/TBXX_Flash_Tool)
+- [Ai-Thinker-Open/Telink_825X_SDK](https://github.com/Ai-Thinker-Open/Telink_825X_SDK/tree/master/example/bootloader)
+- [pvvx/TlsrComProg825x](https://github.com/pvvx/TlsrComProg825x)
