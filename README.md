@@ -63,8 +63,16 @@ Clone or download the repository and execute Telink_Tools.py in a system with Py
 
 ## Flash layout
 
-![](/docs/flash_allocation.PNG)
-![](/docs/flash_description.PNG)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/flash_allocation_dark.PNG" />
+    <source media="(prefers-color-scheme: light)" srcset="./docs/flash_allocation.PNG" />
+    <img alt="Flash allocation" src="./docs/flash_allocation.PNG" />
+</picture>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/flash_description_dark.PNG" />
+    <source media="(prefers-color-scheme: light)" srcset="./docs/flash_description.PNG" />
+    <img alt="Flash allocation" src="./docs/flash_description.PNG" />
+</picture>
 
 ## Credits
 
