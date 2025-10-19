@@ -1,11 +1,29 @@
 # Telink Zigbee serial flash tool
 
-> **NOTE:** This project is not thoroughly tested yet!
+> [!WARNING]  
+> This project is not thoroughly tested yet!
 
-Reliably read, write and erase flash memory for Telink Zigbee boards (eg. 8258) with just a USB-to-serial converter.
+Reliably read, write and erase flash memory for Telink Zigbee boards (eg. TLSR8258) with just a USB-to-serial converter.
 
-![](/docs/intro.PNG)
+```
+D:\Progetti\tuyaZigbee\Telink Zigbee serial flash tool>Telink_Tools.py 
+Telink_Tools.py v0.2 dev Suxsem
+usage: Telink_Tools.py [-h] [--port PORT] {write_flash,read_flash,erase_flash} ...
 
+Telink_Tools.py v0.2 dev Suxsem - Telink Zigbee serial flash tool - edit by Suxsem
+
+positional arguments:
+  {write_flash,read_flash,erase_flash}
+                        Run Telink_Tools.py -h for additional help
+    write_flash         Write data to flash
+    read_flash          Read flash
+    erase_flash         erase 4K (a sector)
+
+options:
+  -h, --help            show this help message and exit
+  --port, -p PORT       Serial port device
+
+```
 ## Connections
 
 ![](/docs/connections.PNG)
