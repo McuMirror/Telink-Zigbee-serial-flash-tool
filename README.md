@@ -26,8 +26,13 @@ options:
 ```
 ## Connections
 
-![](/docs/connections.PNG)
-![](/docs/connection_example.jpg)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/diagram_dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./docs/diagram.png" />
+    <img alt="Diagram" src="./docs/diagram.png" />
+</picture>
+
+![Example](/docs/connection_example.jpg)
 
 ## Usage
 
